@@ -1,0 +1,20 @@
+---
+:secret_word: emotional
+:guessed_word:
+- "-"
+- "-"
+- "-"
+- "-"
+- "-"
+- "-"
+- "-"
+- a
+- "-"
+:guess_count: 2
+:letters_guessed:
+- a
+- b
+- c
+:won: false
+:loss: false
+:guess: save

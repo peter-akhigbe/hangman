@@ -1,0 +1,21 @@
+---
+:secret_word: smooth
+:guessed_word:
+- "-"
+- "-"
+- "-"
+- "-"
+- "-"
+- "-"
+:guess_count: 7
+:letters_guessed:
+- a
+- b
+- c
+- d
+- e
+- f
+- u
+:won: false
+:loss: false
+:guess: save
