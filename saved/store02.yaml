@@ -1,21 +1,26 @@
 ---
-:secret_word: smooth
+:secret_word: emotional
 :guessed_word:
+- e
 - "-"
 - "-"
+- t
 - "-"
 - "-"
-- "-"
-- "-"
-:guess_count: 7
+- "n"
+- a
+- l
+:guess_count: 4
 :letters_guessed:
 - a
 - b
 - c
-- d
+- w
 - e
-- f
-- u
+- r
+- "n"
+- l
+- t
 :won: false
 :loss: false
 :guess: save

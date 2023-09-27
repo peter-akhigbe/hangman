@@ -40,6 +40,8 @@ class Game
         puts 'you won'
         break
       end
+
+      break if @saved
     end
   end
 
@@ -61,11 +63,12 @@ class Game
     puts 'enter filename'
     filename = gets.chomp.downcase
 
-    File.open("saved/#{filename}", 'w') do |file|
+    File.open("saved/#{filename}.yaml", 'w') do |file|
       file.puts YAML.dump(game_data)
     end
 
     puts "Game saved to #{filename}"
+    @saved = true
   end
 
   def load_game
